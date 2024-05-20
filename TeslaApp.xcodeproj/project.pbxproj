@@ -7,16 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F00AB1E2BFB22B900A5FF87 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB1D2BFB22B900A5FF87 /* StartView.swift */; };
+		7F00AB202BFB22D200A5FF87 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB1F2BFB22D200A5FF87 /* StartViewModel.swift */; };
+		7F00AB232BFB22EB00A5FF87 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB222BFB22EB00A5FF87 /* MainView.swift */; };
+		7F00AB252BFB22FF00A5FF87 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB242BFB22FF00A5FF87 /* MainViewModel.swift */; };
+		7F00AB282BFB233600A5FF87 /* ClimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB272BFB233600A5FF87 /* ClimateView.swift */; };
+		7F00AB2A2BFB234A00A5FF87 /* ClimateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB292BFB234A00A5FF87 /* ClimateViewModel.swift */; };
+		7F00AB2C2BFB236000A5FF87 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB2B2BFB236000A5FF87 /* ActionSheetView.swift */; };
+		7F00AB2F2BFB238700A5FF87 /* ActionSheetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB2E2BFB238700A5FF87 /* ActionSheetViewModel.swift */; };
+		7F00AB322BFB23A500A5FF87 /* TeslaLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB312BFB23A500A5FF87 /* TeslaLogoView.swift */; };
+		7F00AB342BFB23B700A5FF87 /* TeslaLogoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB332BFB23B700A5FF87 /* TeslaLogoViewModel.swift */; };
+		7F00AB372BFB23DE00A5FF87 /* ClimateSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB362BFB23DE00A5FF87 /* ClimateSliderView.swift */; };
+		7F00AB392BFB240400A5FF87 /* NeumorphismCircleButtonUnSelectedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB382BFB240400A5FF87 /* NeumorphismCircleButtonUnSelectedCircle.swift */; };
+		7F00AB3B2BFB241F00A5FF87 /* NeumorphismSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB3A2BFB241F00A5FF87 /* NeumorphismSelected.swift */; };
+		7F00AB3D2BFB243700A5FF87 /* NeumorphismUnSelected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB3C2BFB243700A5FF87 /* NeumorphismUnSelected.swift */; };
+		7F00AB3F2BFB244E00A5FF87 /* NeumorphismUnSelectedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB3E2BFB244E00A5FF87 /* NeumorphismUnSelectedCircle.swift */; };
+		7F00AB412BFB246500A5FF87 /* TeslaLogoShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB402BFB246500A5FF87 /* TeslaLogoShape.swift */; };
+		7F00AB452BFB249500A5FF87 /* TeslaCharger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB442BFB249500A5FF87 /* TeslaCharger.swift */; };
+		7F00AB472BFB24A600A5FF87 /* ChargingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB462BFB24A600A5FF87 /* ChargingView.swift */; };
+		7F00AB492BFB24C000A5FF87 /* ChargingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB482BFB24C000A5FF87 /* ChargingViewModel.swift */; };
+		7F00AB4B2BFB24CF00A5FF87 /* ChargeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB4A2BFB24CF00A5FF87 /* ChargeShape.swift */; };
+		7F00AB4E2BFB250D00A5FF87 /* TeslaTabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB4D2BFB250D00A5FF87 /* TeslaTabBarShape.swift */; };
+		7F00AB502BFB252300A5FF87 /* TabItemPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB4F2BFB252300A5FF87 /* TabItemPreferenceKey.swift */; };
+		7F00AB522BFB255200A5FF87 /* TeslaTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB512BFB255200A5FF87 /* TeslaTabBarView.swift */; };
+		7F00AB542BFB256300A5FF87 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB532BFB256300A5FF87 /* MainTabBarView.swift */; };
+		7F00AB562BFB257900A5FF87 /* TabItemModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB552BFB257900A5FF87 /* TabItemModifier.swift */; };
+		7F00AB582BFB258700A5FF87 /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB572BFB258700A5FF87 /* TabItem.swift */; };
+		7F00AB5A2BFB25A200A5FF87 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB592BFB25A200A5FF87 /* View+Extension.swift */; };
+		7F00AB5C2BFB25BB00A5FF87 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F00AB5B2BFB25BB00A5FF87 /* Color+Extension.swift */; };
 		7F6D4D0A2BF218B100424557 /* TeslaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4D092BF218B100424557 /* TeslaAppApp.swift */; };
-		7F6D4D0C2BF218B100424557 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D4D0B2BF218B100424557 /* ContentView.swift */; };
 		7F6D4D0E2BF218B100424557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6D4D0D2BF218B100424557 /* Assets.xcassets */; };
 		7F6D4D112BF218B100424557 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6D4D102BF218B100424557 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F00AB1D2BFB22B900A5FF87 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		7F00AB1F2BFB22D200A5FF87 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		7F00AB222BFB22EB00A5FF87 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7F00AB242BFB22FF00A5FF87 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		7F00AB272BFB233600A5FF87 /* ClimateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateView.swift; sourceTree = "<group>"; };
+		7F00AB292BFB234A00A5FF87 /* ClimateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateViewModel.swift; sourceTree = "<group>"; };
+		7F00AB2B2BFB236000A5FF87 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
+		7F00AB2E2BFB238700A5FF87 /* ActionSheetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetViewModel.swift; sourceTree = "<group>"; };
+		7F00AB312BFB23A500A5FF87 /* TeslaLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaLogoView.swift; sourceTree = "<group>"; };
+		7F00AB332BFB23B700A5FF87 /* TeslaLogoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaLogoViewModel.swift; sourceTree = "<group>"; };
+		7F00AB362BFB23DE00A5FF87 /* ClimateSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateSliderView.swift; sourceTree = "<group>"; };
+		7F00AB382BFB240400A5FF87 /* NeumorphismCircleButtonUnSelectedCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismCircleButtonUnSelectedCircle.swift; sourceTree = "<group>"; };
+		7F00AB3A2BFB241F00A5FF87 /* NeumorphismSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismSelected.swift; sourceTree = "<group>"; };
+		7F00AB3C2BFB243700A5FF87 /* NeumorphismUnSelected.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismUnSelected.swift; sourceTree = "<group>"; };
+		7F00AB3E2BFB244E00A5FF87 /* NeumorphismUnSelectedCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphismUnSelectedCircle.swift; sourceTree = "<group>"; };
+		7F00AB402BFB246500A5FF87 /* TeslaLogoShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaLogoShape.swift; sourceTree = "<group>"; };
+		7F00AB442BFB249500A5FF87 /* TeslaCharger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaCharger.swift; sourceTree = "<group>"; };
+		7F00AB462BFB24A600A5FF87 /* ChargingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingView.swift; sourceTree = "<group>"; };
+		7F00AB482BFB24C000A5FF87 /* ChargingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargingViewModel.swift; sourceTree = "<group>"; };
+		7F00AB4A2BFB24CF00A5FF87 /* ChargeShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeShape.swift; sourceTree = "<group>"; };
+		7F00AB4D2BFB250D00A5FF87 /* TeslaTabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaTabBarShape.swift; sourceTree = "<group>"; };
+		7F00AB4F2BFB252300A5FF87 /* TabItemPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemPreferenceKey.swift; sourceTree = "<group>"; };
+		7F00AB512BFB255200A5FF87 /* TeslaTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaTabBarView.swift; sourceTree = "<group>"; };
+		7F00AB532BFB256300A5FF87 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		7F00AB552BFB257900A5FF87 /* TabItemModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemModifier.swift; sourceTree = "<group>"; };
+		7F00AB572BFB258700A5FF87 /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		7F00AB592BFB25A200A5FF87 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		7F00AB5B2BFB25BB00A5FF87 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		7F6D4D062BF218B100424557 /* TeslaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeslaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6D4D092BF218B100424557 /* TeslaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaAppApp.swift; sourceTree = "<group>"; };
-		7F6D4D0B2BF218B100424557 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F6D4D0D2BF218B100424557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F6D4D102BF218B100424557 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +86,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F00AB1C2BFB22A600A5FF87 /* StartModule */ = {
+			isa = PBXGroup;
+			children = (
+				7F00AB1D2BFB22B900A5FF87 /* StartView.swift */,
+				7F00AB1F2BFB22D200A5FF87 /* StartViewModel.swift */,
+			);
+			path = StartModule;
+			sourceTree = "<group>";
+		};
+		7F00AB212BFB22DD00A5FF87 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				7F00AB222BFB22EB00A5FF87 /* MainView.swift */,
+				7F00AB242BFB22FF00A5FF87 /* MainViewModel.swift */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		7F00AB262BFB232500A5FF87 /* ClimateModule */ = {
+			isa = PBXGroup;
+			children = (
+				7F00AB272BFB233600A5FF87 /* ClimateView.swift */,
+				7F00AB292BFB234A00A5FF87 /* ClimateViewModel.swift */,
+			);
+			path = ClimateModule;
+			sourceTree = "<group>";
+		};
+		7F00AB2D2BFB236500A5FF87 /* ActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				7F00AB2B2BFB236000A5FF87 /* ActionSheetView.swift */,
+				7F00AB2E2BFB238700A5FF87 /* ActionSheetViewModel.swift */,
+			);
+			path = ActionSheet;
+			sourceTree = "<group>";
+		};
+		7F00AB302BFB239700A5FF87 /* LogoModule */ = {
+			isa = PBXGroup;
+			children = (
+				7F00AB312BFB23A500A5FF87 /* TeslaLogoView.swift */,
+				7F00AB332BFB23B700A5FF87 /* TeslaLogoViewModel.swift */,
+			);
+			path = LogoModule;
+			sourceTree = "<group>";
+		};
+		7F00AB352BFB23D000A5FF87 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7F00AB362BFB23DE00A5FF87 /* ClimateSliderView.swift */,
+				7F00AB382BFB240400A5FF87 /* NeumorphismCircleButtonUnSelectedCircle.swift */,
+				7F00AB3A2BFB241F00A5FF87 /* NeumorphismSelected.swift */,
+				7F00AB3C2BFB243700A5FF87 /* NeumorphismUnSelected.swift */,
+				7F00AB3E2BFB244E00A5FF87 /* NeumorphismUnSelectedCircle.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7F00AB432BFB248A00A5FF87 /* Charge */ = {
+			isa = PBXGroup;
+			children = (
+				7F00AB442BFB249500A5FF87 /* TeslaCharger.swift */,
+				7F00AB462BFB24A600A5FF87 /* ChargingView.swift */,
+				7F00AB482BFB24C000A5FF87 /* ChargingViewModel.swift */,
+				7F00AB4A2BFB24CF00A5FF87 /* ChargeShape.swift */,
+			);
+			path = Charge;
+			sourceTree = "<group>";
+		};
+		7F00AB4C2BFB24FF00A5FF87 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7F00AB4D2BFB250D00A5FF87 /* TeslaTabBarShape.swift */,
+				7F00AB4F2BFB252300A5FF87 /* TabItemPreferenceKey.swift */,
+				7F00AB512BFB255200A5FF87 /* TeslaTabBarView.swift */,
+				7F00AB532BFB256300A5FF87 /* MainTabBarView.swift */,
+				7F00AB552BFB257900A5FF87 /* TabItemModifier.swift */,
+				7F00AB572BFB258700A5FF87 /* TabItem.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		7F6D4CFD2BF218B100424557 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +186,20 @@
 		7F6D4D082BF218B100424557 /* TeslaApp */ = {
 			isa = PBXGroup;
 			children = (
+				7F00AB4C2BFB24FF00A5FF87 /* TabBar */,
+				7F00AB432BFB248A00A5FF87 /* Charge */,
+				7F00AB352BFB23D000A5FF87 /* Helpers */,
+				7F00AB302BFB239700A5FF87 /* LogoModule */,
+				7F00AB2D2BFB236500A5FF87 /* ActionSheet */,
+				7F00AB262BFB232500A5FF87 /* ClimateModule */,
+				7F00AB212BFB22DD00A5FF87 /* MainModule */,
+				7F00AB1C2BFB22A600A5FF87 /* StartModule */,
 				7F6D4D092BF218B100424557 /* TeslaAppApp.swift */,
-				7F6D4D0B2BF218B100424557 /* ContentView.swift */,
 				7F6D4D0D2BF218B100424557 /* Assets.xcassets */,
 				7F6D4D0F2BF218B100424557 /* Preview Content */,
+				7F00AB402BFB246500A5FF87 /* TeslaLogoShape.swift */,
+				7F00AB592BFB25A200A5FF87 /* View+Extension.swift */,
+				7F00AB5B2BFB25BB00A5FF87 /* Color+Extension.swift */,
 			);
 			path = TeslaApp;
 			sourceTree = "<group>";
@@ -137,8 +282,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F6D4D0C2BF218B100424557 /* ContentView.swift in Sources */,
+				7F00AB2C2BFB236000A5FF87 /* ActionSheetView.swift in Sources */,
+				7F00AB3D2BFB243700A5FF87 /* NeumorphismUnSelected.swift in Sources */,
+				7F00AB3F2BFB244E00A5FF87 /* NeumorphismUnSelectedCircle.swift in Sources */,
+				7F00AB232BFB22EB00A5FF87 /* MainView.swift in Sources */,
+				7F00AB492BFB24C000A5FF87 /* ChargingViewModel.swift in Sources */,
+				7F00AB472BFB24A600A5FF87 /* ChargingView.swift in Sources */,
+				7F00AB4B2BFB24CF00A5FF87 /* ChargeShape.swift in Sources */,
+				7F00AB582BFB258700A5FF87 /* TabItem.swift in Sources */,
+				7F00AB202BFB22D200A5FF87 /* StartViewModel.swift in Sources */,
+				7F00AB412BFB246500A5FF87 /* TeslaLogoShape.swift in Sources */,
+				7F00AB2F2BFB238700A5FF87 /* ActionSheetViewModel.swift in Sources */,
+				7F00AB562BFB257900A5FF87 /* TabItemModifier.swift in Sources */,
+				7F00AB4E2BFB250D00A5FF87 /* TeslaTabBarShape.swift in Sources */,
+				7F00AB1E2BFB22B900A5FF87 /* StartView.swift in Sources */,
+				7F00AB322BFB23A500A5FF87 /* TeslaLogoView.swift in Sources */,
+				7F00AB372BFB23DE00A5FF87 /* ClimateSliderView.swift in Sources */,
+				7F00AB452BFB249500A5FF87 /* TeslaCharger.swift in Sources */,
+				7F00AB502BFB252300A5FF87 /* TabItemPreferenceKey.swift in Sources */,
+				7F00AB5A2BFB25A200A5FF87 /* View+Extension.swift in Sources */,
 				7F6D4D0A2BF218B100424557 /* TeslaAppApp.swift in Sources */,
+				7F00AB3B2BFB241F00A5FF87 /* NeumorphismSelected.swift in Sources */,
+				7F00AB5C2BFB25BB00A5FF87 /* Color+Extension.swift in Sources */,
+				7F00AB342BFB23B700A5FF87 /* TeslaLogoViewModel.swift in Sources */,
+				7F00AB392BFB240400A5FF87 /* NeumorphismCircleButtonUnSelectedCircle.swift in Sources */,
+				7F00AB522BFB255200A5FF87 /* TeslaTabBarView.swift in Sources */,
+				7F00AB542BFB256300A5FF87 /* MainTabBarView.swift in Sources */,
+				7F00AB2A2BFB234A00A5FF87 /* ClimateViewModel.swift in Sources */,
+				7F00AB252BFB22FF00A5FF87 /* MainViewModel.swift in Sources */,
+				7F00AB282BFB233600A5FF87 /* ClimateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
